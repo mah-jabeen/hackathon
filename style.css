@@ -72,3 +72,39 @@
   color: white;
   
   }
+
+
+
+  /* media query */
+  @media only screen and (max-width: 768px) {
+    .custom-card {
+        margin-bottom: 20px;
+    }
+
+    .card-body {
+        padding: 20px;
+    }
+
+    .highlight-text {
+        font-size: 1.2rem;
+    }
+
+    .learn-more .arrow {
+        font-size: 1.5rem;
+    }
+
+    img.img-fluid {
+        width: 100%;
+    }
+}
+
+/* Additional styles for better scaling */
+@media only screen and (max-width: 480px) {
+    .highlight-text {
+        font-size: 1rem;
+    }
+
+    .learn-more .arrow {
+        font-size: 1.2rem;
+    }
+}
